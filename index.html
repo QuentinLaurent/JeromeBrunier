@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jérôme Brunier - Coach Sportif & Préparateur Physique</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Jérôme Brunier</h1>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav" id="mobileNav">
+                    <a href="#about" class="nav-link" onclick="closeMobileMenu()">À propos</a>
+                    <a href="#services" class="nav-link" onclick="closeMobileMenu()">Services</a>
+                    <a href="#testimonials" class="nav-link" onclick="closeMobileMenu()">Témoignages</a>
+                    <a href="#pricing" class="nav-link" onclick="closeMobileMenu()">Planning et Tarifs</a>
+                    <a href="#contact" class="nav-link" onclick="closeMobileMenu()">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content-grid">
+                    <div class="hero-content">
+                        <h2 class="hero-title">Coach Sportif & Préparateur Physique</h2>
+                        <p class="hero-subtitle">30 ans d'expérience dans le coaching<br>Du haut niveau à la santé</p>
+                        <a href="#contact" class="cta-button">Me contacter</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/image1.jpg" alt="Jérôme Brunier en action" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Mon parcours</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="experience-card">
+                            <h3>30 ans d'expérience</h3>
+                            <p>Premier coaching avec Olivier Grouillard (ancien pilote F1) pour sa préparation au championnat GT 1996</p>
+                        </div>
+                        <div class="experience-card">
+                            <h3>10 ans en Norvège</h3>
+                            <p>Évolution dans la réathlétisation : performance (Club de football Ligue 1) et santé (Centre FysioTeam)</p>
+                        </div>
+                        <div class="experience-card">
+                            <h3>Formation complète</h3>
+                            <p>Diplôme d'État français, Diplôme Universitaire, formations Redcord Sport Médical et techniques de récupération</p>
+                        </div>
+                    </div>
+                    <div class="about-images">
+                        <img src="images/image2.jpg" alt="Séance de coaching" class="about-img">
+                        <img src="images/image3.jpg" alt="Préparation physique" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Mes services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="images/image4.jpg" alt="Coaching personnalisé" class="service-img">
+                        <h3>Coaching personnalisé</h3>
+                        <p>Séances individuelles ou en petit groupe (2-3 personnes max). Travail adapté à votre profil et vos pathologies.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/image5.jpg" alt="Préparation athlétique" class="service-img">
+                        <h3>Préparation athlétique</h3>
+                        <p>Séances spécifiques en relation avec votre activité physique principale.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/image6.jpg" alt="Rééducation" class="service-img">
+                        <h3>Réathlétisation</h3>
+                        <p>Travail de récupération post-blessure et prévention, techniques Redcord et massages.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/image7.jpg" alt="Tests et évaluation" class="service-img">
+                        <h3>Tests et évaluation</h3>
+                        <p>Tests Rufier Dickson, VMA, évaluation isométrique, équilibre et souplesse (plateforme LPG HUBER 360).</p>
+                    </div>
+                </div>
+                
+                <div class="methodology">
+                    <h3>Ma méthode</h3>
+                    <div class="method-points">
+                        <div class="method-point">
+                            <img src="images/image8.jpg" alt="Travail adapté" class="method-img">
+                            <p><strong>Travail adapté :</strong> Même exercice, charge personnalisée selon votre profil</p>
+                        </div>
+                        <div class="method-point">
+                            <img src="images/image9.jpg" alt="Chaîne fermée" class="method-img">
+                            <p><strong>Chaîne fermée :</strong> Poids de corps, proprioception, isométries</p>
+                        </div>
+                        <div class="method-point">
+                            <img src="images/image10.jpg" alt="Local adapté" class="method-img">
+                            <p><strong>Local à taille humaine :</strong> Environnement optimal pour un suivi personnalisé</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Témoignages</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <img src="images/image11.jpg" alt="Janick" class="testimonial-img">
+                        <h4>Janick</h4>
+                        <p>"Grâce au travail de réathlétisation avec Jérôme, j'ai pu retrouver ma mobilité et remarcher après une longue période de rééducation. Son approche personnalisée a fait toute la différence."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="images/image12.jpg" alt="Loïc triathlon" class="testimonial-img">
+                        <h4>Loïc</h4>
+                        <p>"La préparation physique spécifique au triathlon m'a permis d'améliorer significativement mes performances. Jérôme a su adapter chaque séance à mes besoins et mes objectifs de compétition."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="images/image13.jpg" alt="Loïc OL" class="testimonial-img">
+                        <h4>Loïc (Footballeur)</h4>
+                        <p>"Après plusieurs blessures, j'avais perdu confiance. Le programme de récupération et de prévention mis en place m'a permis de retrouver mon niveau et d'éviter les récidives."</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="images/image14.jpg" alt="Marc" class="testimonial-img">
+                        <h4>Marc</h4>
+                        <p>"Ma préparation pour la marche en Laponie a été parfaite. Endurance, renforcement, adaptation au froid... Jérôme a pensé à tout pour que cette aventure soit une réussite totale."</p>
+                    </div>
+                </div>
+                <div class="testimonial-quote">
+                    <p class="quote">"Dans le domaine de la santé, chaque fois qu'un adhérent me dit 'suite à mon test d'effort, mon cardiologue m'a demandé de réduire les doses de mon traitement', c'est pour moi un véritable symbole de réussite. Ces moments représentent l'essence même de mon travail : améliorer concrètement la santé et la qualité de vie de mes clients."</p>
+                    <p class="quote-author">- Jérôme Brunier</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="pricing-content">
+                    <div class="pricing-section">
+                        <h2 class="section-title">Planning</h2>
+                        <div class="image-container">
+                            <img src="images/planning.jpg" alt="Planning de la salle" class="planning-img clickable-img" onclick="openModal('images/planning.jpg', 'Planning de la salle')">
+                        </div>
+                        <a href="images/planning.jpg" download="planning-jerome-brunier.jpg" class="download-link">📥 Télécharger le planning</a>
+                    </div>
+                    <div class="pricing-section">
+                        <h2 class="section-title">Tarifs</h2>
+                        <div class="image-container">
+                            <img src="images/tarifs.jpg" alt="Grille tarifaire" class="tarifs-img clickable-img" onclick="openModal('images/tarifs.jpg', 'Grille tarifaire')">
+                        </div>
+                        <a href="images/tarifs.jpg" download="tarifs-jerome-brunier.jpg" class="download-link">📥 Télécharger les tarifs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Téléphone</h3>
+                            <p><a href="tel:0648200064" class="contact-link">06 48 20 00 64</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Adresse</h3>
+                            <p>6 Rue Henri Simon<br>85160 Saint-Jean-de-Monts</p>
+                        </div>
+                    </div>
+                    <div class="contact-image">
+                        <img src="images/image15.jpg" alt="Salle de sport" class="contact-img">
+                    </div>
+                </div>
+                <div class="cta-section">
+                    <h3>Prêt à commencer ?</h3>
+                    <p>Contactez-moi pour une première consultation et définir ensemble vos objectifs.</p>
+                    <a href="tel:0648200064" class="cta-button">Appelez maintenant</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jérôme Brunier - Coach Sportif & Préparateur Physique</p>
+        </div>
+    </footer>
+
+    <!-- Modal pour zoom des images -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImg" src="" alt="">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(imageSrc, caption) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImg');
+            const modalCaption = document.getElementById('modalCaption');
+            
+            modal.style.display = 'block';
+            modalImg.src = imageSrc;
+            modalCaption.textContent = caption;
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Fermer la modal avec la touche Escape
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Menu mobile
+        function toggleMobileMenu() {
+            const nav = document.getElementById('mobileNav');
+            const toggle = document.querySelector('.mobile-menu-toggle');
+            
+            nav.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+
+        function closeMobileMenu() {
+            const nav = document.getElementById('mobileNav');
+            const toggle = document.querySelector('.mobile-menu-toggle');
+            
+            nav.classList.remove('active');
+            toggle.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
