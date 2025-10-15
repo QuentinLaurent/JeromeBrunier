@@ -405,8 +405,8 @@ body {
 }
 
 .testimonial-img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     margin: 0 auto 1rem;
