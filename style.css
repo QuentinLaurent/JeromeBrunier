@@ -439,13 +439,13 @@ body {
     grid-column: span 2;
 }
 
-.testimonials-grid .testimonial-card:nth-child(4) {
+/*.testimonials-grid .testimonial-card:nth-child(4) {
     grid-column: 2 / 4;
 }
 
 .testimonials-grid .testimonial-card:nth-child(5) {
     grid-column: 4 / 6;
-}
+}*/
 
 .testimonial-card {
     background: var(--white);
@@ -489,6 +489,77 @@ body {
 .quote-author {
     font-weight: 600;
     opacity: 0.9;
+}
+
+/* Protocol Section */
+.protocol {
+    padding: 80px 0;
+}
+
+.protocol-card {
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--primary-color);
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.protocol-item {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1.1rem 1.75rem;
+    border-bottom: 1px solid var(--gray-border);
+    transition: background 0.2s ease;
+}
+
+.protocol-item:last-child {
+    border-bottom: none;
+}
+
+.protocol-item:hover {
+    background: var(--gray-light);
+}
+
+.protocol-item-number {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 2px;
+}
+
+.protocol-item-body {
+    flex: 1;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.protocol-item-text {
+    flex: 1;
+    font-size: 0.97rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.step-photo {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    flex-shrink: 0;
 }
 
 /* Pricing */
@@ -561,6 +632,20 @@ body {
     font-size: 0.85rem;
     font-weight: 500;
     white-space: nowrap;
+}
+
+.slot--detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: normal;
+    line-height: 1.3;
+}
+
+.slot-detail {
+    font-size: 0.72rem;
+    font-weight: 400;
+    opacity: 0.9;
 }
 
 .rates-table {
@@ -795,6 +880,15 @@ body {
 
     .method-img {
         margin-bottom: 1rem;
+    }
+
+    .protocol-item-body {
+        flex-direction: column;
+    }
+
+    .step-photo {
+        width: 100%;
+        height: 180px;
     }
 }
 
